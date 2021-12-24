@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
   body {
-      font-family: sans-serif;
-      width: 100%;
-      background: #3CB371;
+    display: flex;
+    font-family: sans-serif;
+    background: #3CB371;
+    justify-content: center;
   }
   .column {
     background: white;
