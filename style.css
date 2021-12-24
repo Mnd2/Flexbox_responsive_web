@@ -15,7 +15,11 @@
   }
   .left {
     display: flex;
-    width: 70% 0;
+    flex-direction: column;
+  }
+  .right {
+    display: flex;
+    width: 71%;
     flex-direction: column;
   }
 h2 {
@@ -36,28 +40,5 @@ a {
 }
   .row {
       display: flex;
-      margin: 15px 16%;
-  }
-  @media screen and (max-width: 1150px) {
-    .row {
-        margin: 0 15px;
-        flex-direction: column;
-    }
-    .right {
-        width: 100%;
-    }
-    .right .container {
-        padding: 1px 0;
-        
-    }
-  }
-  @media screen and (min-width: 1149px) {
-    .right {
-        display: inline-flex;
-        flex-wrap: wrap;
-        width: 50%;
-    }
-    .left {
-        width: 100%;
-    }
+      width: 70%;
   }
