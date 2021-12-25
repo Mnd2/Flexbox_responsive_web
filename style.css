@@ -18,12 +18,12 @@
   }
   .left {
     display: flex;
-    max-width: 50%;
+    max-width: 46%;
     flex-direction: column;
   }
   .right {
     display: grid;
-    max-width: 25%;
+    max-width: 23%;
     flex-direction: column;
   }
 h2 {
